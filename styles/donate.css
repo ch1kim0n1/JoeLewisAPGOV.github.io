@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.donate-section {
+    background-color: #3498db; /* Blue color */
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 40px;
+}
+
+.donate-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #fff; /* White border */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #fff; /* White background color */
+    color: #3498db; /* Blue color */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ecf0f1; /* Light background color on hover */
+}
+
+
+/* ---------------------------------------------- */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header, nav, main, footer {
+    padding: 20px;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  
+  header {
+    background-color: #000;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  header::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 90%;
+    transform: translateX(-50%);
+    height: 2px;
+    background-color: #00f; /* Blue color for the line */
+  }
+  
+  #logo {
+    max-width: 150px; /* Adjust the width as needed */
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out; 
+  }
+  
+  h1 {
+    margin-left: 10px; /* Add some space between the logo and title */
+    color: #fff;
+  }
+  
+  /* CSS for the focus block */
+  .campaign-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .focus-block {
+    width: 30%; /* Adjust the width as needed */
+    padding: 20px;
+    margin: 10px;
+    background-color: #f2f2f2; /* Light background color */
+    border-radius: 10px;
+    text-align: center;
+    color: #000; /* Black text color */
+  }
+  
+  
+  .focus-block h3 {
+    color: #007bff; /* Blue color for focus headings */
+  }
+  
+  /* CSS for the why-vote block */
+  .why-vote {
+    margin-top: 40px;
+    text-align: center;
+    color: #ffffff; 
+  }
+  
+  .why-vote h2 {
+    font-size: 32px; /* Increase the font size */
+    color: #007bff; /* Blue color for why-vote heading */
+    margin-bottom: 20px; /* Add space at the bottom of the title */
+  }
+  
+  .why-vote ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .why-vote li {
+    margin: 40px 0;
+  }
+  
+  .why-vote-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .why-vote-item {
+    width: 45%; /* Adjust the width as needed */
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    background-color: rgb(56, 154, 224); /* Gray background color for each tab */
+    padding: 15px;
+    border-radius: 8px;
+    height: 100%;
+  }
+  
+  
+  .subtitle {
+    color: #fff;
+    font-style: italic;
+    margin-top: 10px; /* Add space between the title and subtitle */
+  }
+  
+  .page-title {
+    text-align: center;
+    margin-top: 20px; /* Add some space between the buttons and the title */
+  }
+  
+  .page-title h2 {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #ffffff;
+  }
+  
+  
+  .logo-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header:hover #logo {
+    transform: rotate(360deg); /* Add a little shake on hover */
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #00f; /* Button border color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; 
+  }
+  
+  nav a:hover {
+    color: rgb(131, 131, 131); /* Change to blue on hover */
+  }
+  
+  main {
+    padding-top: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+  }

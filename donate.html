@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/donate.css">
+    <link rel="icon" href="images/logpng.png" type="image/png"> 
+    <title>Joe Lewis 2024</title>
+</head>
+<body>
+    <header>
+        <div class="logo-title-container">
+            <a href="https://docs.google.com/document/d/14GJNKSQhfc1_j7BfgETPooY-TzVZLvWhqtjANhrcdyI/edit?usp=sharing" target="_blank">
+                <img src="images/logpng.png" alt="Campaign Logo" id="logo">
+            </a>
+            <h1>Joe Lewis 2024</h1>
+        </div>
+        <p class="subtitle">"Lead the future with Joe Lewis"</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="policies.html">Policies</a></li>
+            <li><a href="news.html">Latest News</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="donate.html">DONATE</a></li>
+            <!-- Add more pages as needed -->
+        </ul>
+    </nav>
+    <main>
+        <div class="page-title">
+            <!-- This element will dynamically show the current page title -->
+            <h2>DONATE</h2>
+            <p>Current Donation Pool - $25,453</p>
+        </div>
+
+        <section class="donate-section">
+            <div class="donate-container">
+                <h2>Donate to Support Joe Lewis</h2>
+                <p>Your contribution helps us make a difference!</p>
+                
+                <form id="donation-form">
+                    <label for="amount">Amount:</label>
+                    <input type="text" id="amount" name="amount" placeholder="Enter amount">
+        
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email">
+        
+                    <label for="message">Message (optional):</label>
+                    <textarea id="message" name="message" placeholder="Leave a message"></textarea>
+        
+                    <button type="button" onclick="validateAndDonate()">Donate Now</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Joe Lewis Campaign</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
