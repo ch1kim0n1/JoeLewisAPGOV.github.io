@@ -18,6 +18,15 @@ main {
   flex-grow: 1;
 }
 
+.pic {
+  width: 300px;
+  height: 300px; /* Set the height to be the same as the width */
+  object-fit: cover;
+  border-radius: 50%; /* Make it a circle */
+  border: 2px solid #000; /* Black outline */
+}
+
+
 header {
   background-color: #000;
   position: relative;
