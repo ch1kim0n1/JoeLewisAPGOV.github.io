@@ -233,7 +233,7 @@
       footer {
         text-align: center;
         background-color: #000;
-        position: fixed;
+        position: flex;
         bottom: 0;
         padding: 20px;
         width: 100%;

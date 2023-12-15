@@ -56,8 +56,9 @@ header::after {
 }
 
 h1 {
-  margin-left: 10px; /* Add some space between the logo and title */
-  color: #fff;
+  margin-left: 1%; /* Add some space between the logo and title */
+  color: #ffffff;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 /* CSS for the focus block */
@@ -191,7 +192,7 @@ main {
 footer {
   text-align: center;
   background-color: #000;
-  position: fixed;
+  position: flex;
   bottom: 0;
   padding: 20px;
   width: 100%;

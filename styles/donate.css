@@ -34,6 +34,14 @@ input, textarea {
     border-radius: 5px;
 }
 
+.pic {
+    width: 300px;
+    height: 300px; /* Set the height to be the same as the width */
+    object-fit: cover;
+    border-radius: 50%; /* Make it a circle */
+    border: 2px solid #000; /* Black outline */
+  }
+
 button {
     padding: 10px;
     background-color: #fff; /* White background color */
@@ -236,7 +244,7 @@ body {
   footer {
     text-align: center;
     background-color: #000;
-    position: fixed;
+    position: flex;
     bottom: 0;
     padding: 20px;
     width: 100%;
