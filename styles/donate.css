@@ -109,8 +109,9 @@ body {
   }
   
   h1 {
-    margin-left: 10px; /* Add some space between the logo and title */
-    color: #fff;
+    margin-left: 1%; /* Add some space between the logo and title */
+    color: #ffffff;
+    font-family: "Lucida Console", "Courier New", monospace;
   }
   
   /* CSS for the focus block */
